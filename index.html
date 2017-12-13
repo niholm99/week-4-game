@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Crystal Collector</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/reset.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Aldrich|Monoton" rel="stylesheet">
+
+</head>
+
+  <body>
+
+  <div class="container">
+  
+    <div class="jumbotron">
+      <h1 class="display-3 text-center"><strong>Crystal Collector</strong></h1>
+    </div>
+
+<!--Main Content Row -->
+    <div class="row">
+
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-header">
+             <h3 class="panel-title text-center">Featured</h3>
+          </div>
+          <div class="card-body">
+            <p class="card-text">You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. The value of each crystal is hidden from you until you click it. Each time when the game starts, the game will change the value of each crystal.</p>
+          </div>
+        </div>
+      </div>
+
+    </div> 
+
+    <div class="row">
+
+<!--Random Score -->
+      <div class="col-lg-3">
+
+        <div class="card">
+          <div class="card-header">
+             <h3 class="panel-title text-center">Target Score</h3>
+          </div>
+          <div class="card-body">
+            <h3 class="card-text text-center" id="targetScore"></h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Your Score -->
+       <div class="col-lg-3">
+
+        <div class="card">
+          <div class="card-header">
+             <h3 class="panel-title text-center">Your Score</h3>
+          </div>
+          <div class="card-body">
+            <h3 class="card-text text-center" id="yourScore"></h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Crystals -->
+      <div class="col-lg-6">
+
+        <div class="card">
+          <div class="card-header">
+             <h3 class="panel-title text-center">Crystal Selection</h3>
+          </div>
+          <div class="card-body text-center">
+            <img src="assets/images/blue.png" alt="" id="blue">
+            <img src="assets/images/green.png" alt="" id="green">
+            <img src="assets/images/red.png" alt="" id="red">
+            <img src="assets/images/silver.png" alt="" id="silver">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--Counters Row -->
+    <div class="row">
+     
+     <div class="col-lg-6">
+       <div class="card">
+          <div class="card-header">
+             <h3 class="panel-title text-center">Wins</h3>
+          </div>
+          <div class="card-body">
+            <h3 class="card-text text-center" id="winCount">0</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+       <div class="card">
+          <div class="card-header">
+             <h3 class="panel-title text-center">Losses</h3>
+          </div>
+          <div class="card-body">
+            <h3 class="card-text text-center" id="lossCount">0</h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+</div>
+	
+<!-- JQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Javascript -->
+  <script src="assets/javascript.js"></script>
+</body>
+</html>
