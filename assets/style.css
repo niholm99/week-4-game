@@ -1,0 +1,37 @@
+img{
+	width: 120px;
+	height: auto;
+}
+
+.card-header{
+	background-color: #66FFFF;
+}
+
+.jumbotron{
+	background-color: #19FF19;
+}
+
+h1{
+	color: white;
+	font-family: 'Monoton', cursive;
+}
+
+h3,p{
+	color: white;
+	font-family: 'Aldrich', sans-serif;
+}
+
+.container,.card-body{
+	background-color: black;
+}
+
+body{
+	background-color: #FF0D6E;
+}
+
+.container{
+	margin-top: 20px;
+	margin-bottom: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
